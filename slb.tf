@@ -6,7 +6,7 @@ resource "alicloud_slb" "muay_slb" {
   load_balancer_name = "muay_slb"
   load_balancer_spec = var.slb_type
   address_type  = "internet"
-  #vswitch_id    = alicloud_vswitch.default.id
+
   payment_type = "PayAsYouGo"
   tags = {
     tag_a = 1
