@@ -39,7 +39,7 @@ resource "alicloud_db_database" "database" {
 
 resource "alicloud_db_connection" "conn" {
   instance_id       = alicloud_db_instance.mysqlmuay.id
-  #connection_prefix = "LabEx1982"
+
 }
 
 
